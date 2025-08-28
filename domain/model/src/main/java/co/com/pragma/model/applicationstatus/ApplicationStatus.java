@@ -1,6 +1,7 @@
 package co.com.pragma.model.applicationstatus;
-import lombok.Builder;
+
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -11,6 +12,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder(toBuilder = true)
 public class ApplicationStatus {
+
+  private Long id;
   private String name;
   private String description;
 }
